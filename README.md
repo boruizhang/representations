@@ -18,7 +18,7 @@ bash   git clone https://github.com/boruizhang/representations.git
 Or open any notebook directly in Google Colab using the badges in the table above.
 Notebooks are designed to be run sequentially. Each installs its own dependencies via pip in the first cell.
 
-'''
+```
 Repo Structure
 representations/
 ├── README.md
@@ -30,7 +30,7 @@ representations/
 ├── 07_gpt.ipynb
 ├── data/                  # Sample corpora and datasets
     └── README.md          # Data sources and descriptions
-'''
+```
 
 ## Learning outcomes
 
