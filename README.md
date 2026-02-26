@@ -18,6 +18,7 @@ bash   git clone https://github.com/boruizhang/representations.git
 Or open any notebook directly in Google Colab using the badges in the table above.
 Notebooks are designed to be run sequentially. Each installs its own dependencies via pip in the first cell.
 
+'''
 Repo Structure
 representations/
 ├── README.md
@@ -29,12 +30,22 @@ representations/
 ├── 07_gpt.ipynb
 ├── data/                  # Sample corpora and datasets
     └── README.md          # Data sources and descriptions
+'''
 
-
-**Learning outcomes:**
+## Learning outcomes
 
 Start with intuition — Every notebook opens with a linguistic example that exposes why the previous method is insufficient, before introducing the new technique.
 Make the math tangible — Equations are always paired with concrete corpus examples. Students compute TF-IDF scores by hand before calling sklearn.
 Bridge the two cultures — Exercises alternate between "explain what the code does linguistically" and "implement what this linguistic concept requires computationally."
 Trace the historical arc — BOW → TF-IDF → Skip-gram/CBOW → subword tokenization → BERT/GPT follows the actual research trajectory, so students understand not just what each method does but what problem it was invented to solve.
 End with the encoder/decoder split — BERT and GPT are taught as two answers to the same question (how to pretrain on unlabeled text), making the architectural differences concrete rather than arbitrary.
+
+## License
+
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to use and adapt these materials for non-commercial educational purposes with attribution. You may not repackage them as part of a paid course or product without permission.
+
+## Acknowledgments
+
+Developed for coursework LING 6932 at the University of Florida.
