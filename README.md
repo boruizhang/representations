@@ -26,10 +26,9 @@ representations/
 ├── 01_bow-tfidf.ipynb
 ├── 02_static_embedding.ipynb
 ├── 03_subword_tokenization.ipynb
-├── 06_bert.ipynb
-├── 07_gpt.ipynb
-├── data/                  # Sample corpora and datasets
-    └── README.md          # Data sources and descriptions
+├── 04_bert_self_attention.ipynb
+├── 05_vibe_coding_tiny_english_splitter.ipynb
+├── 06_llm-assisted_post_ocr_correction.ipynb
 ```
 
 ## Learning outcomes
@@ -48,4 +47,4 @@ You are free to use and adapt these materials for non-commercial educational pur
 
 ## Acknowledgments
 
-Developed for coursework LING 6932 at the University of Florida.
+Developed as part of the coursework LING 6932 at the University of Florida.
